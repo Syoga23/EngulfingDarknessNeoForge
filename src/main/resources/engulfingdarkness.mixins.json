@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.quarris.engulfingdarkness.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "engulfingdarkness.refmap.json",
+  "mixins": [
+    "AbstractArrowMixin",
+    "FishingHookMixin",
+    "LivingEntityMixin",
+    "NearestAttackableTargetGoalMixin"
+  ],
+  "client": [
+    "GuiMixin"
+  ],
+  "server": []
+}

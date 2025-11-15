@@ -13,9 +13,11 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.neoforged.fml.config.ModConfigs;
 
+
+
 public class ModRef {
 
-    public static final String ID = "engulfingdarkness";
+    public static final String ID = "assets/engulfingdarkness";
 
     public static final Logger LOGGER = LogUtils.getLogger();
 
@@ -27,6 +29,8 @@ public class ModRef {
     public static ResourceLocation res(String res) {
         return ResourceLocation.fromNamespaceAndPath(ID, res);
     }
+
+
 
     public static final DeferredRegister<DataComponentType<?>> DATA_COMPONENTS = DeferredRegister.create(Registries.DATA_COMPONENT_TYPE, ID);
 
